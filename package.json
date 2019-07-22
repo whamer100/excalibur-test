@@ -1,0 +1,31 @@
+{
+  "name": "excalibur-test",
+  "version": "1.0.0",
+  "description": "testing out a new game engine in ts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node browserify.js > bundle.js"
+  },
+  "browserify-shim": {
+    "excalibur": "global:ex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whamer100/excalibur-test.git"
+  },
+  "author": "whamer100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whamer100/excalibur-test/issues"
+  },
+  "homepage": "https://github.com/whamer100/excalibur-test#readme",
+  "dependencies": {
+    "@types/browserify": "^12.0.36",
+    "@types/typescript": "^2.0.0",
+    "browserify": "^16.3.0",
+    "browserify-shim": "^3.8.14",
+    "excalibur": "^0.23.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.5.3"
+  }
+}
